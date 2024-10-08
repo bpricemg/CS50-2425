@@ -1,5 +1,5 @@
 /**
- * Print a quare of blocks
+ * Print a triangle of blocks
  */
 #include <cs50.h>
 #include <stdio.h>
@@ -18,7 +18,7 @@ int main(void)
     for (int row = 0; row < height; row++)
     {
         // For each column
-        for (int col = 0; col < height; col++)
+        for (int col = 0; col < height - row; col++)
         {
             printf("#");
         }
