@@ -21,14 +21,19 @@ int main(void)
 
 int calculate_score(string word)
 {
+    // Initialize score value
+
     // For each character in the word
 
         // Force letter to be a lowercase
-
         // *Determine the ASCII value
-
-        // Subtract 97 (ASCII value of 'a')
+        // *Subtract 97 (ASCII value of 'a')
         words[i] - 'a'
 
         // Look up character value in array with that index
+
+        // Add to score
+
+    // Return score
+
 }
