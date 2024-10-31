@@ -28,7 +28,7 @@ int calculate_score(string word)
         // Force letter to be a lowercase
         // *Determine the ASCII value
         // *Subtract 97 (ASCII value of 'a')
-        words[i] - 'a'
+        int index = tolower(word[i]) - 'a'
 
         // Look up character value in array with that index
 
