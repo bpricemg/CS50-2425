@@ -1,6 +1,8 @@
 /**
- * 
+ *
  */
+
+char rotate(char c, int n);
 
 int main(int argc, string argv[])
 {
@@ -15,4 +17,9 @@ int main(int argc, string argv[])
     // For each character in the plaintext:
 
         // Rotate the character if it's a letter
+}
+
+char rotate(char c, int n)
+{
+    
 }
