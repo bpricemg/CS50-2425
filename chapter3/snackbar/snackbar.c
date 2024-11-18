@@ -73,11 +73,13 @@ int main(void)
 // Add items to the menu array
 void add_items(void)
 {
+
     return;
 }
 
-// Search through the menu array to find an item's cost
+// (linear) Search through the menu array to find an item's cost
 float get_cost(string item)
 {
+
     return 0.0;
 }
