@@ -151,7 +151,12 @@ bool vote(int voter, int rank, string name)
 // Tabulate votes for non-eliminated candidates
 void tabulate(void)
 {
-    // TODO
+    // Loop through each voter
+        // Loop through each rank
+            // Save the prefences of the voter
+            // Look in candidates to see if candidate not eliminated
+                // Add 1 to their votes
+                // break
     return;
 }
 
