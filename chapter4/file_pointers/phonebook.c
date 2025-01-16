@@ -5,6 +5,8 @@ int main(void)
 {
     // Open CSV (comma separated values) file
     FILE *fonebook = fopen("phonebook.csv", "a");
+
+    // Stop the program if the file doesn't open
     if (!fonebook)
     {
         return 1;
