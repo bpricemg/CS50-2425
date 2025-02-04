@@ -42,15 +42,18 @@ void blur(int height, int width, RGBTRIPLE image[height][width])
     // Loop through all pixels
 
         // Initialize a red, green, and blue integer
+        // Initialize a counter
 
         // Loop over the surrounding pixels
-            // Increasing the red, green, and blue integers as needed
+            // If on pixel array
+                // Increase the red, green, and blue integers as needed
+                // Increase counter
 
         // Find the average of each red, green, and blue value
 
         // Save these averages into the "new_image"
 
     // Copy the pixels from new_image to image
-    
+
     return;
 }
