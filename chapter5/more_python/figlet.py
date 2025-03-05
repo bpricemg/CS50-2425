@@ -4,18 +4,13 @@ import random
 
 figlet = Figlet()
 
-# The user doesn't define the font
-if len(argv) == 1:
-    print(figlet.getFonts())
-    figlet.setFont(font=random.choice(figlet.getFonts()))
-
 # The user defines the font
-elif len(argv) == 3 and argv[2] in figlet.getFonts():
+if len(argv) == 3 and argv[2] in figlet.getFonts() and argv[1] in ["-f", "--font"]:
     figlet.setFont(font=argv[2])
 
-
-# Otherwise, improper usage, exit
-#else:
+# Else pick a random font
+else:
+    figlet.setFont(font=random.choice(figlet.getFonts()))
 
 s = input("Input: ")
 print("Output: ")
