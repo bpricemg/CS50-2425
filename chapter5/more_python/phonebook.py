@@ -1,7 +1,7 @@
 # Search for a name
 from cs50 import get_string
 from sys import exit
-
+    
 people = {
     "Mia": "413-458-9582",
     "Arthur": "555-555-5555",
