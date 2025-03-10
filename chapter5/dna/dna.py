@@ -27,9 +27,20 @@ def main():
     print(sequence)
 
 
-    # TODO: Find longest match of each STR in DNA sequence
+    # Find longest match of each STR in DNA sequence
+    matches = {}
+    for str in strs:
+        matches[str] = longest_match(sequence, str)
+    print(matches)
 
     # TODO: Check database for matching profiles
+    # For each person in people
+        # Assume we found the person until we find a mismatch
+        # For str in strs
+            # Check if a match
+            # If not a match, break
+        # If we don't break, the we found a match
+    # Otherwise, not found
 
     return
 
