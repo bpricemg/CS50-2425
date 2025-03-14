@@ -4,7 +4,6 @@ from statistics import mean
 def main():
     # Prompt user for input about each hole they played.
     holes = []
-    hole_num = 0
     while True:
         hole_number = get_int("Golf course hole number: ")
         handicap = get_int("Hole handicap rating: ")
@@ -28,6 +27,8 @@ def main():
             break
 
         print()
+
+    print()
 
     # Compared to par
     print_par(holes)
