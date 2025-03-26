@@ -1,7 +1,6 @@
 from cs50 import get_int, get_string
 
 def main():
-    # Prompt user for input about each hole they played.
     holes = []
     while True:
         hole_number = get_int("Golf course hole number: ")
@@ -15,7 +14,6 @@ def main():
                         "score": score})
         print()
 
-        # Determine if user is done inputting hole information
         while True:
             more = get_string("Would you like to input information for another golf hole? ").lower()
             if more in ["no", "n", "yes", "y"]:
@@ -27,11 +25,9 @@ def main():
 
     print()
 
-    # Compared to par
     print_par(holes)
 
 def print_par(holes):
-    """Prints the user's distance from par for the day"""
     total_par = 0
     total_score = 0
     for row in holes:
