@@ -1,4 +1,4 @@
-# Count favorites using a variable
+# Count favorites using a dictionary
 
 import csv
 
