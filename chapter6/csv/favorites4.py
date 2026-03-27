@@ -1,4 +1,4 @@
-# Count favorites using a variable
+# Sort favorites by key
 
 import csv
 
